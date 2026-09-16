@@ -81,6 +81,9 @@ dynamic-hotel-pricing/
 │   ├── actual_vs_predicted_hotel_prices.png
 │   └── test_predictions.csv
 ├── src/
+│   ├── config.py
+│   ├── evaluate_model.py
+│   ├── visualize_results.py
 │   ├── preprocessing.py
 │   ├── train_model.py
 │   └── predict.py
@@ -91,3 +94,11 @@ dynamic-hotel-pricing/
 
 ## Dataset Note
 The dataset used in this project is synthetic and was generated specifically for demonstrating the ML workflow. Therefore, the reported performance reflects how well the model learned the patterns in this synthetic dataset and should not be interpreted as real-world hotel-market performance.
+
+### Project modules
+- `config.py` — shared paths and model settings.
+- `preprocessing.py` — feature selection and one-hot encoding.
+- `train_model.py` — training, testing, and model saving.
+- `predict.py` — prediction for new hotel inputs.
+- `evaluate_model.py` — R², MAE, and RMSE evaluation.
+- `visualize_results.py` — actual-vs-predicted visualization.
