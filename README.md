@@ -91,6 +91,9 @@ dynamic-hotel-pricing/
 ├── requirements.txt
 └── statement.md
 ```
+## Code Screenshots 
+<img width="1053" height="590" alt="image" src="https://github.com/user-attachments/assets/cac2e639-e2d5-4b54-b667-8c18b42de820" />
+<img width="1056" height="591" alt="image" src="https://github.com/user-attachments/assets/f2e0bb44-955a-4f56-9b4c-eecea4ceb31e" />
 
 ## Dataset Note
 The dataset used in this project is synthetic. it was generated specifically to demonstrate the machine learning workflow. Because of this, the performance numbers reported here only show how well the model learned the patterns within this synthetic data, and shouldn't be taken as an indication of how it would perform in a real hotel market.
