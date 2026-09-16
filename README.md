@@ -1,27 +1,27 @@
 # Dynamic Hotel Pricing Using Machine Learning
 
 ## Overview
-This project develops a machine-learning-based system for predicting an optimal hotel room price from booking and market-related factors.
+This project builds a machine learning system that predicts the ideal price for a hotel room based on booking and market conditions.
 
-The model uses:
+The model takes into account:
 - Base price
 - Season
 - Day type
-- Local event availability
+- Whether a local event is happening
 - Room type
 - Competitor demand
 
-A Random Forest Regressor is trained to predict `Optimal_Price`.
+A Random Forest Regressor is trained to predict the `Optimal_Price`.
 
 ## Features
-- Synthetic dataset containing 1,000 hotel bookings
+- A synthetic dataset of 1,000 hotel bookings
 - One-Hot Encoding for categorical variables
-- 80/20 train-test split
+- An 80/20 train-test split
 - Random Forest Regression
-- R² and Mean Absolute Error evaluation
+- Evaluation using R² and Mean Absolute Error
 - Price prediction for a new booking scenario
-- Actual vs. predicted price visualization
-
+- A visualization comparing actual vs. predicted prices
+  
 ## Technologies
 - Python
 - pandas
@@ -93,8 +93,7 @@ dynamic-hotel-pricing/
 ```
 
 ## Dataset Note
-The dataset used in this project is synthetic and was generated specifically for demonstrating the ML workflow. Therefore, the reported performance reflects how well the model learned the patterns in this synthetic dataset and should not be interpreted as real-world hotel-market performance.
-
+The dataset used in this project is synthetic. it was generated specifically to demonstrate the machine learning workflow. Because of this, the performance numbers reported here only show how well the model learned the patterns within this synthetic data, and shouldn't be taken as an indication of how it would perform in a real hotel market.
 ### Project modules
 - `config.py` — shared paths and model settings.
 - `preprocessing.py` — feature selection and one-hot encoding.
